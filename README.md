@@ -260,4 +260,57 @@ Reducing dataset size without losing essential information.
 - **Data reduction** improves efficiency by reducing unnecessary features.
 - **Data splitting** prepares the dataset for training and evaluation.
 
+---
+
+## Loss Function
+
+### What is it?
+A loss function measures how well a machine learning model performs by quantifying the difference between predicted and actual values.
+
+### Purpose
+Guides the model to improve by minimizing the loss during training.
+
+### Common Loss Functions
+- **Mean Squared Error (MSE):** Used for regression tasks.
+- **Mean Absolute Error (MAE):** Also used for regression.
+- **Cross-Entropy Loss:** Used for classification tasks.
+
+---
+
+## Distance Formulas
+Distance formulas measure the similarity or difference between data points. They are commonly used in clustering (e.g., K-Means) and nearest-neighbor algorithms.
+
+### Common Distance Metrics
+- **Euclidean Distance:** Straight-line distance between two points in space.
+
+---
+
+## Gradient Descent
+
+### What is it?
+Gradient Descent is an optimization algorithm used to minimize the loss function (error) in machine learning models.
+
+### How It Works
+1. Start with random values for model parameters (e.g., weights in linear regression).
+2. Calculate the gradient (derivative) of the loss function with respect to the parameters.
+3. Update the parameters in the opposite direction of the gradient to reduce the loss.
+4. Repeat until the loss is minimized.
+
+---
+
+## Optimizers
+Optimizers are advanced versions of gradient descent that improve convergence and performance.
+
+### Common Optimizers
+- **Momentum:**
+  - Adds a fraction of the previous update to the current update to speed up convergence.
+  - Helps overcome local minima and oscillations.
+- **RMSprop:**
+  - Adapts the learning rate for each parameter based on the average of recent gradients.
+  - Works well for non-stationary problems.
+- **Adam (Adaptive Moment Estimation):**
+  - Combines Momentum and RMSprop.
+  - Adjusts learning rates for each parameter and uses moving averages of gradients.
+  - Most commonly used optimizer in practice.
+
 
