@@ -145,11 +145,7 @@ This involves gathering data firsthand, specifically for a study or project.
 - Controlled testing of hypotheses (e.g., testing two website versions).
 - **Used in:** Marketing, product development, healthcare studies.
 
-### E. Web Scraping
-- Extracting data from websites using automated scripts.
-- **Tools:** BeautifulSoup, Scrapy, Selenium.
-
-### F. IoT & Sensor Data Collection
+### E. IoT & Sensor Data Collection
 - Data collected from smart devices, wearables, and industrial sensors.
 - **Used in:** Smart cities, healthcare, manufacturing.
 
@@ -173,6 +169,10 @@ This involves collecting already existing data from external sources.
 ### D. Business & Enterprise Data
 - Internal company data (sales, customer interactions, HR records).
 - **Used in:** Business intelligence, predictive analytics.
+
+### E. Web Scraping
+- Extracting data from websites using automated scripts.
+- **Tools:** BeautifulSoup, Scrapy, Selenium.
 
 ---
 
