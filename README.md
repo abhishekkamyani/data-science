@@ -1,4 +1,4 @@
-# data-science notes by Abhishek Kamyani
+# Data Science notes by Abhishek Kamyani
 
 
 ## Introduction to Data Science
@@ -109,7 +109,7 @@ Understanding key libraries and their applications is essential: Pandas for data
 
 
 ### **Definition of Data Engineering**  
-Data Engineering focuses on the design, development, and maintenance of systems that allow for the efficient collection, storage, and processing of data. It involves building data pipelines, ensuring data quality, and optimizing databases for analytical use.  
+Data Engineering focuses on the design, development, and maintenance of systems that allow for the efficient collection, storage, and processing of data. It involves building data pipelines, ensuring data quality, and optimizing databases for analytical use. It ensures that high-quality data is available for data science and analytics.
 
 ### **Data Engineering vs. Data Science**  
 
@@ -119,4 +119,66 @@ Data Engineering focuses on the design, development, and maintenance of systems 
 | **Focus**  | Data collection, storage, transformation, and pipeline management. | Statistical analysis, machine learning, and decision-making. |
 | **Key Skills**  | SQL, ETL (Extract, Transform, Load), Cloud Computing, Big Data Tools (Spark, Hadoop). | Python, Statistics, Machine Learning, Data Visualization. |
 | **Output**  | Cleaned, structured, and accessible data for analysis. | Predictive models, insights, and reports for decision-making. |
+
+---
+
+# Data Collection Methods in Data Science
+
+Data collection is the process of gathering information from various sources for analysis. It can be categorized into primary and secondary data collection methods.
+
+## 1. Primary Data Collection (Direct Collection)
+This involves gathering data firsthand, specifically for a study or project.
+
+### A. Surveys & Questionnaires
+- Used in market research, customer feedback, and academic studies.
+- **Tools:** Google Forms, SurveyMonkey, Typeform.
+
+### B. Interviews
+- One-on-one discussions to gain detailed insights.
+- **Types:** Structured, semi-structured, unstructured.
+
+### C. Observations
+- Recording real-world behaviors without direct interaction.
+- **Used in:** User experience research, security monitoring, etc.
+
+### D. Experiments & A/B Testing
+- Controlled testing of hypotheses (e.g., testing two website versions).
+- **Used in:** Marketing, product development, healthcare studies.
+
+### E. Web Scraping
+- Extracting data from websites using automated scripts.
+- **Tools:** BeautifulSoup, Scrapy, Selenium.
+
+### F. IoT & Sensor Data Collection
+- Data collected from smart devices, wearables, and industrial sensors.
+- **Used in:** Smart cities, healthcare, manufacturing.
+
+---
+
+## 2. Secondary Data Collection (Existing Data Sources)
+This involves collecting already existing data from external sources.
+
+### A. Public Datasets & Open Data
+- Government databases, research publications, and open data repositories.
+- **Examples:** Kaggle, UCI Machine Learning Repository, Google Dataset Search.
+
+### B. APIs (Application Programming Interfaces)
+- Collecting real-time data from online services.
+- **Examples:** Twitter API (for social media analysis), OpenWeather API (for weather data).
+
+### C. Database Systems
+- Extracting structured data from relational and non-relational databases.
+- **Tools:** SQL (for structured databases), MongoDB (for NoSQL databases).
+
+### D. Business & Enterprise Data
+- Internal company data (sales, customer interactions, HR records).
+- **Used in:** Business intelligence, predictive analytics.
+
+---
+
+## Choosing the Right Data Collection Method
+- **For real-time data?** Use APIs, IoT sensors, or streaming data pipelines.
+- **For customer insights?** Use surveys, interviews, or sentiment analysis.
+- **For large datasets?** Use web scraping, open data sources, or databases.
+
 
