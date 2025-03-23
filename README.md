@@ -310,4 +310,41 @@ Optimizers are advanced versions of gradient descent that improve convergence an
   - Adjusts learning rates for each parameter and uses moving averages of gradients.
   - Most commonly used optimizer in practice.
 
+---
+
+## Data Visualization
+Data visualization is the process of representing data graphically to uncover patterns, trends, and insights. It helps in understanding the data better before applying machine learning models.
+
+### Common Visualization Techniques:
+- **Line Charts** – Show trends over time.
+- **Bar Charts** – Compare categorical data.
+- **Pie Charts** – Display proportions.
+- **Histograms** – Show data distribution.
+- **Scatter Plots** – Visualize relationships between variables.
+- **Box Plots** – Highlight distribution and outliers.
+
+### Tools for Data Visualization:
+- **Matplotlib** – Basic plotting in Python.
+- **Seaborn** – Advanced statistical visualizations.
+- **Plotly** – Interactive visualizations.
+- **Tableau & Power BI** – Business intelligence tools.
+
+
+
+## Exploratory Data Analysis (EDA)
+EDA is the process of analyzing and summarizing data to understand its main characteristics, often using visualizations and statistical methods.
+
+### Exploratory Data Analysis (EDA) Steps:
+
+| Step No. | EDA Step                   | Definition |
+|----------|----------------------------|------------|
+| 1        | **Understand the Data**      | Examine the dataset structure, column names, data types, and overall shape to get an initial sense of the data. |
+| 2        | **Handle Missing Values**    | Identify and deal with missing data by either removing it, imputing values, or using forward/backward filling techniques. |
+| 3        | **Summary Statistics**       | Generate basic descriptive statistics (mean, median, standard deviation, etc.) to understand data distribution and variability. |
+| 4        | **Data Distribution Analysis** | Analyze the spread and shape of data using histograms, density plots, and box plots to check for normality and skewness. |
+| 5        | **Identify Outliers**        | Detect extreme values in numerical features using statistical techniques like the IQR method and Z-score. |
+| 6        | **Correlation Analysis**     | Measure relationships between numerical variables using correlation coefficients and visualize them using heatmaps. |
+| 7        | **Identify Patterns & Trends** | Explore relationships between categorical and numerical data, detect trends, seasonality, and group-wise variations. |
+| 8        | **Hypothesis Testing**      | Perform statistical tests (T-test, Chi-square, ANOVA) to validate assumptions and draw meaningful conclusions from data. |
+
 
