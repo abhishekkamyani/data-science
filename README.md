@@ -105,3 +105,18 @@ Understanding key libraries and their applications is essential: Pandas for data
 - Python is widely used in Data Science due to its simplicity, extensive libraries, versatility, and strong community support.
 
 ---
+
+
+
+### **Definition of Data Engineering**  
+Data Engineering focuses on the design, development, and maintenance of systems that allow for the efficient collection, storage, and processing of data. It involves building data pipelines, ensuring data quality, and optimizing databases for analytical use.  
+
+### **Data Engineering vs. Data Science**  
+
+| Aspect            | Data Engineering | Data Science |
+|------------------|----------------|-------------|
+| **Definition**  | Develops and maintains data infrastructure for storage, processing, and accessibility. | Analyzes and interprets data to generate insights and predictions. |
+| **Focus**  | Data collection, storage, transformation, and pipeline management. | Statistical analysis, machine learning, and decision-making. |
+| **Key Skills**  | SQL, ETL (Extract, Transform, Load), Cloud Computing, Big Data Tools (Spark, Hadoop). | Python, Statistics, Machine Learning, Data Visualization. |
+| **Output**  | Cleaned, structured, and accessible data for analysis. | Predictive models, insights, and reports for decision-making. |
+
