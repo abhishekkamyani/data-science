@@ -183,17 +183,13 @@ This involves collecting already existing data from external sources.
 
 ---
 
-# Data Preprocessing and Cleaning Process
+# Data Preprocessing and its techniques
 
-Data preprocessing is a crucial step in data science and machine learning, ensuring that raw data is transformed into a structured and meaningful format. It involves several steps to handle missing values, remove noise, and prepare data for analysis.
+Data preprocessing is the process of cleaning, transforming, and preparing raw data before feeding it into a machine learning model. It ensures that the data is structured, consistent, and suitable for analysis.
 
-## Steps in Data Preprocessing and Cleaning
+## Data Preprocessing techniques
 
-### 1. Data Collection
-- Gather data from multiple sources such as databases, APIs, web scraping, IoT devices, and surveys.
-- Ensure data is in a usable format (CSV, JSON, SQL tables, etc.).
-
-### 2. Data Cleaning
+### 1. Data Cleaning
 This step ensures that data is accurate, consistent, and free from errors.
 
 #### a) Handling Missing Values
@@ -214,7 +210,7 @@ This step ensures that data is accurate, consistent, and free from errors.
 - Standardizing formats (e.g., "USA" vs. "United States" vs. "U.S.").
 - Fixing structural errors such as typos or incorrect units (e.g., kg vs. lbs).
 
-### 3. Data Transformation
+### 2. Data Transformation
 After cleaning, data needs to be formatted correctly for analysis.
 
 #### a) Data Type Conversion
@@ -222,6 +218,7 @@ After cleaning, data needs to be formatted correctly for analysis.
 - Ensure categorical values are correctly labeled.
 
 #### b) Feature Scaling (Normalization & Standardization)
+Feature scaling ensures that numerical data is within a similar range to prevent models from giving more importance to larger values.
 - **Normalization (Min-Max Scaling)**: Scales values between 0 and 1.
   \[ X' = \frac{X - X_{min}}{X_{max} - X_{min}} \]
 - **Standardization (Z-score Scaling)**: Centers data around a mean of 0 and standard deviation of 1.
