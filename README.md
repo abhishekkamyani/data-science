@@ -350,8 +350,7 @@ EDA is the process of analyzing and summarizing data to understand its main char
 
 ---
 
-
-**Descriptive Statistics**
+## Descriptive Statistics
 
 Descriptive statistics summarize data using measures of central tendency (mean, median, mode) and measures of dispersion (variance, standard deviation).
 
