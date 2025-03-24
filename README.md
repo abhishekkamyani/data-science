@@ -348,3 +348,33 @@ EDA is the process of analyzing and summarizing data to understand its main char
 | 8        | **Hypothesis Testing**      | Perform statistical tests (T-test, Chi-square, ANOVA) to validate assumptions and draw meaningful conclusions from data. |
 
 
+---
+
+
+**Descriptive Statistics**
+
+Descriptive statistics summarize data using measures of central tendency (mean, median, mode) and measures of dispersion (variance, standard deviation).
+
+### 1. Measures of Central Tendency
+These measures describe the center or typical value of a dataset.
+
+| Measure | Definition | Formula / Explanation |
+|---------|------------|----------------------|
+| **Mean (Average)** | The sum of all values divided by the total number of values. | Mean (\(\mu\)) = \( \frac{\sum X_i}{N} \) |
+| **Median** | The middle value when data is sorted. If even, it's the average of the two middle values. | Sort the data → Find the middle value. |
+| **Mode** | The most frequently occurring value in a dataset. | The value appearing most often. |
+
+### 2. Measures of Dispersion (Spread)
+These measures describe how spread out or dispersed the values in a dataset are.
+
+- **Variance (\(\sigma^2\))**:
+  - The variance is the average of the squared differences from the mean.
+  - It measures how far each value in the dataset is from the mean.
+  - Variance is the square of the standard deviation.
+
+- **Standard Deviation (\(\sigma\))**:
+  - The square root of variance.
+  - It measures the amount of variation or dispersion in a dataset.
+  - A low standard deviation means the values are close to the mean.
+  - A high standard deviation means the values are spread out over a wider range.
+
